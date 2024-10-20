@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+    <html>
+
+    <head>
+        <title>StudentRegistrationFormUsingHTMLwith
+            CSS</title>
+        <style>
+            table {
+                background: linear-gradient(tobottom, cyan 0%, pink 100%);
+                border-style: dashed;
+            }
+
+            input[type=text],
+            input[type=email],
+            input[type=number] {
+                width: 50%;
+                padding: 6px12px;
+                margin:
+                    6px 0;
+            }
+
+            input[type=submit],
+            input[type=reset] {
+                width: 15%;
+                padding: 6sspx12px;
+                margin: 6px 0;
+            }
+        </style>
+    </head>
+
+    <body>
+        <tablealign="center"cellpadding="10">
+            <tr>
+                <td>FirstName</td>
+                <td>
+                    <inputtype="text"name="FirstName" maxlength="50" placeholder="Ngachamsung" />
+                    (Max50CharactersAllowed)
+                </td>
+            </tr>
+            <tr>
+                <td>LastName</td>
+                <td>
+                    <inputtype="text"name="LastName" maxlength="50" placeholder="Jagoi" />
+                    (Max50CharactersAllowed)
+                </td>
+            </tr>
+            <tr>
+                <td>EmailID</td>
+                <td><input type="email" name="EmailID" maxlength="100" placeholder="b23cs034@nitm.ac.in 
+" /></td>
+            </tr>
+            <tr>
+                <td>MobileNumber</td>
+                <td>
+                    <inputtype="text"name="MobileNumber" maxlength="10" placeholder="1234567890" />
+                    (10DigitsAllowed)
+                </td>
+            </tr>
+            <tr>
+                <td>Gender</td>
+                <td>
+                    <inputtype="radio"name="Gender" value="Male" /> Male
+                    <inputtype="radio"name="Gender" value="Female" />
+                    Female
+                </td>
+            </tr>
+            <tr>
+                <td>DateofBirth(DOB)</td>
+                <td>
+                    <selectname="Day"id="Day">
+                        <optionvalue="-1">Day:</option>
+                            <optionvalue="1">1</option>
+                                <optionvalue="2">2</option>
+                                    <optionvalue="3">3</option>
+                                        <optionvalue="4">4</option>
+                                            <optionvalue="5">5</option>
+                                                <optionvalue="6">6</option>
+                                                    <optionvalue="7">7</option>
+                                                        <optionvalue="8">8</option>
+                                                            <optionvalue="9">9</option>
+                                                                <optionvalue="10">10</option>
+                                                                    <optionvalue="11">11</option>
+                                                                        <optionvalue="12">12</option>
+                                                                            <optionvalue="13">13</option>
+                                                                                <optionvalue="14">14</option>
+                                                                                    <optionvalue="15">15</option>
+                                                                                        <optionvalue="16">16</option>
+                                                                                            <optionvalue="17">17
+                                                                                                </option>
+                                                                                                <optionvalue="18">18
+                                                                                                    </option>
+                                                                                                    <optionvalue="19">19
+                                                                                                        </option>
+                                                                                                        <optionvalue="20">
+                                                                                                            20</option>
+                                                                                                            <optionvalue="21">
+                                                                                                                21
+                                                                                                                </option>
+                                                                                                                <optionvalue="22">
+                                                                                                                    22
+                                                                                                                    </option>
+                                                                                                                    <optionvalue="23">
+                                                                                                                        23
+                                                                                                                        </option>
+                                                                                                                        <optionvalue="24">
+                                                                                                                            24
+                                                                                                                            </option>
+                                                                                                                            <optionvalue="25">
+                                                                                                                                25
+                                                                                                                                </option>
+                                                                                                                                <optionvalue="26">
+                                                                                                                                    26
+                                                                                                                                    </option>
+                                                                                                                                    <optionvalue="27">
+                                                                                                                                        27
+                                                                                                                                        </option>
+                                                                                                                                        <optionvalue="28">
+                                                                                                                                            28
+                                                                                                                                            </option>
+                                                                                                                                            <optionvalue="29">
+                                                                                                                                                29
+                                                                                                                                                </option>
+                                                                                                                                                <optionvalue="30">
+                                                                                                                                                    30
+                                                                                                                                                    </option>
+                                                                                                                                                    <optionvalue="31">
+                                                                                                                                                        31
+                                                                                                                                                        </option>
+                                                                                                                                                        </select>
+                                                                                                                                                        <selectname="Month"id="Month">
+                                                                                                                                                            <optionvalue="-1">Month:
+                                                                                                                                                                </option>
+                                                                                                                                                                <optionvalue="January">
+                                                                                                                                                                    Jan(1)
+                                                                                                                                                                    </option>
+                                                                                                                                                                    <optionvalue="February">
+                                                                                                                                                                        Feb(2)
+                                                                                                                                                                        </option>
+                                                                                                                                                                        <optionvalue="March">
+                                                                                                                                                                            Mar(3)
+                                                                                                                                                                            </option>
+                                                                                                                                                                            <optionvalue="April">
+                                                                                                                                                                                Apr(4)
+                                                                                                                                                                                </option>
+                                                                                                                                                                                <optionvalue="May">
+                                                                                                                                                                                    May(5)
+                                                                                                                                                                                    </option>
+                                                                                                                                                                                    <optionvalue="June">
+                                                                                                                                                                                        Jun(6)
+                                                                                                                                                                                        </option>
+                                                                                                                                                                                        <optionvalue="July">
+                                                                                                                                                                                            Jul(7)
+                                                                                                                                                                                            </option>
+                                                                                                                                                                                            <optionvalue="August">
+                                                                                                                                                                                                Aug(8)
+                                                                                                                                                                                                </option>
+                                                                                                                                                                                                <optionvalue="September">
+                                                                                                                                                                                                    Sep(9)
+                                                                                                                                                                                                    </option>
+                                                                                                                                                                                                    <optionvalue="October">
+                                                                                                                                                                                                        Oct(10)
+                                                                                                                                                                                                        </option>
+                                                                                                                                                                                                        <option
+                                                                                                                                                                                                            value="November">
+                                                                                                                                                                                                            Nov(11)
+                                                                                                                                                                                                        </option>
+                                                                                                                                                                                                        <option
+                                                                                                                                                                                                            value="December">
+                                                                                                                                                                                                            Dec(12)
+                                                                                                                                                                                                        </option>
+                                                                                                                                                                                                        </select>
+                                                                                                                                                                                                        <selectname="Year"id="Year">
+                                                                                                                                                                                                            <optionvalue="-1">Year:
+                                                                                                                                                                                                                </option>
+                                                                                                                                                                                                                <optionvalue="2012">
+                                                                                                                                                                                                                    2012
+                                                                                                                                                                                                                    </option>
+                                                                                                                                                                                                                    <optionvalue="2011">
+                                                                                                                                                                                                                        2011
+                                                                                                                                                                                                                        </option>
+                                                                                                                                                                                                                        <optionvalue="2010">
+                                                                                                                                                                                                                            2010
+                                                                                                                                                                                                                            </option>
+                                                                                                                                                                                                                            <optionvalue="2009">
+                                                                                                                                                                                                                                2009
+                                                                                                                                                                                                                                </option>
+                                                                                                                                                                                                                                <optionvalue="2008">
+                                                                                                                                                                                                                                    2008
+                                                                                                                                                                                                                                    </option>
+                                                                                                                                                                                                                                    <optionvalue="2007">
+                                                                                                                                                                                                                                        2007
+                                                                                                                                                                                                                                        </option>
+                                                                                                                                                                                                                                        <optionvalue="2006">
+                                                                                                                                                                                                                                            2006
+                                                                                                                                                                                                                                            </option>
+                                                                                                                                                                                                                                            <optionvalue="2005">
+                                                                                                                                                                                                                                                2005
+                                                                                                                                                                                                                                                </option>
+                                                                                                                                                                                                                                                <optionvalue="2004">
+                                                                                                                                                                                                                                                    2004
+                                                                                                                                                                                                                                                    </option>
+                                                                                                                                                                                                                                                    <optionvalue="2003">
+                                                                                                                                                                                                                                                        2003
+                                                                                                                                                                                                                                                        </option>
+                                                                                                                                                                                                                                                        <optionvalue="2002">
+                                                                                                                                                                                                                                                            2002
+                                                                                                                                                                                                                                                            </option>
+                                                                                                                                                                                                                                                            <optionvalue="2001">
+                                                                                                                                                                                                                                                                2001
+                                                                                                                                                                                                                                                                </option>
+                                                                                                                                                                                                                                                                <optionvalue="2000">
+                                                                                                                                                                                                                                                                    2000
+                                                                                                                                                                                                                                                                    </option>
+                                                                                                                                                                                                                                                                    <optionvalue="1999">
+                                                                                                                                                                                                                                                                        1999
+                                                                                                                                                                                                                                                                        </option>
+                                                                                                                                                                                                                                                                        <optionvalue="1998">
+                                                                                                                                                                                                                                                                            1998
+                                                                                                                                                                                                                                                                            </option>
+                                                                                                                                                                                                                                                                            <optionvalue="1997">
+                                                                                                                                                                                                                                                                                1997
+                                                                                                                                                                                                                                                                                </option>
+                                                                                                                                                                                                                                                                                <optionvalue="1996">
+                                                                                                                                                                                                                                                                                    1996
+                                                                                                                                                                                                                                                                                    </option>
+                                                                                                                                                                                                                                                                                    <optionvalue="1995">
+                                                                                                                                                                                                                                                                                        1995
+                                                                                                                                                                                                                                                                                        </option>
+                                                                                                                                                                                                                                                                                        </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Address<br /><br /><br /></td>
+                <td>
+                    <textareaname="Address"rows="5" cols="50"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>City</td>
+                <td>
+                    <inputtype="text"name="City" maxlength="50" placeholder="Shillong" />
+                    (Max50CharactersAllowed)
+                </td>
+            </tr>
+            <tr>
+                <td>PinCode</td>
+                <td>
+                    <inputtype="Number"name="PinCode" maxlength="6" placeholder="793003" />
+                    (Max6NumbersAllowed)
+                </td>
+            </tr>
+            <tr>
+                <td>State</td>
+                <td>
+                    <inputtype="text"name="State" maxlength="50" placeholder="Meghalaya" />
+                    (Max50CharactersAllowed)
+                </td>
+            </tr>
+            <tr>
+                <td>Country</td>
+                <td>
+                    <inputtype="text"name="Country" placeholder="India" />
+                </td>
+            </tr>
+            <tr>
+                <td>Hobbies<br /><br /><br /></td>
+                <td>
+                    <input type="checkbox" name="HobbyDrawing" value="Drawing" />
+                    Drawing
+                    <inputtype="checkbox"name="HobbySinging" value="Singing" />
+                    Singing
+                    <input type="checkbox" name="HobbyDancing" value="Dancing" />
+                    Dancing
+                    <input type="checkbox" name="HobbyCooking" value="Cooking" />
+                    Sketching
+                    <br />
+                    <inputtype="checkbox"name="HobbyOther"value="Other">
+                        Others
+                        <inputtype="text"name="Other_Hobby" maxlength="50" placeholder="Ex- Teaching" />
+                        (Max50CharactersAllowed)
+                </td>
+            </tr>
+            <tr>
+                <td>Qualification<br /><br /><br /></td>
+                <td>
+                    <br />
+                    <inputtype="checkbox"name="HighSchool" value="High School" />
+                    HighSchool(10th)<br>
+                    <inputtype="checkbox"name="HigherSchool" value="Higher School" />
+                    HigherSchool(12th)<br />
+                    <inputtype="checkbox"name="Graduation" value="Graduation" />
+                    Graduation(Bachelors)<br />
+                    <input type="checkbox" name="PostGraduation" value="PostGraduation" />
+                    PostGraduation(Masters)<br />
+                    <inputtype="checkbox"name="Phd"value="Phd">
+                        Phd
+                </td>
+            </tr>
+            <tr>
+                <td>Courses<br />AppliedFor</td>
+                <td>
+                    <inputtype="radio"name="CourseBCA"value="BCA">
+                        BCA(BachelorofComputerApplications)<br>
+                        <inputtype="radio"name="CourseBCom"value="B.Com">
+                            B.Com(BachelorofCommerce)<br>
+                            <inputtype="radio"name="CourseBSc"value="B.Sc">
+                                .A">
+                                >
+                                om">
+                                >
+                                B.A">
+                                B.Sc(BachelorofScience)<br>
+                                <inputtype="radio"name="CourseBA"value="BBA(BachelorofArts)<br>
+                                    <inputtype="radio"name="CourseMCA"value="BCA"MCA(MasterofComputerApplications)<br>
+                                        <inputtype="radio"name="CourseMCom"value="B.CM.Com(MasterofCommerce)<br>
+                                            <inputtype="radio"name="CourseMSc"value="B.Sc"M.Sc(MasterofScience)<br>
+                                                <inputtype="radio"name="CourseMA"value="MA(MasterofArts)<br>
+                </td>
+            </tr>
+            <tr>
+                <tdcolspan="2"align="center">
+                    <inputtype="submit"value="Submit">
+                        <inputtype="reset"value="Reset">
+                            </td>
+            </tr>
+            </table>
+            </form>
+    </body>
+
+    </html>
